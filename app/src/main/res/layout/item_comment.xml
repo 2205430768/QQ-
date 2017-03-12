@@ -1,0 +1,95 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/comment_headIv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="10dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+            <TextView
+                android:id="@+id/comment_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:textColor="#000000"
+                android:text="李太白"
+                android:textSize="15sp" />
+        <TextView
+            android:id="@+id/comment_time"
+            android:lines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="12:53"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+        <com.example.xxy.lovell.widget.ExpandTextView
+            android:id="@+id/comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            app:showLines="2"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/comment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:lineSpacingMultiplier="1.1"
+        android:textColor="#232323"
+        android:text="好v大计划vod局哦道具哦"
+        android:textSize="14sp" />
+        <TextView
+            android:id="@+id/comment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:lineSpacingMultiplier="1.1"
+            android:textColor="#232323"
+            android:text="好v大计划vod局哦道具哦"
+            android:textSize="14sp" />
+         <Button
+             android:id="@+id/more_comment"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="更多评论"
+             />
+
+    </LinearLayout>
+</LinearLayout>

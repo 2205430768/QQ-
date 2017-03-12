@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <color name="bg_primary">#ffFeFeFe</color>
+    <color name="colorDivider">#1f000000</color>
+    <color name="bg_click">#0ff5f5f5</color>
+    <color name="bg_select">#e0d2d2d2</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bottomTabTxNormal">#3F51B5</color>
+    <color name="bottomTabTxSelected">#FF4081</color>
+    <color name="bottomTabBtNormal">#bdbdbd</color>
+    <color name="bottomTabBtChecked">#259b24</color>
+    <color name="bottomTabBackground">#ffffff</color>
+    <color name="windowBackground">#e0e0e0</color>
+    <color name="white">#ffffffff</color>
+    <color name="video_bg">#ededed</color>
+    <color name="transparent">#00000000</color>
+    <color name="default_clickable_color">#cccccc</color>
+    <color name="color_232323">#232323</color>
+    <color name="color_aeaeae">#aeaeae</color>
+    <color name="color_8290AF">#8290AF</color>
+    <color name="praise_item_default">#333333</color>
+    <color name="praise_item_selector_default">#cccccc</color>
+    <color name="praise_item">#8290AF</color>
+    <color name="basic_color_primary">#373b3e</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <color name="name_selector_color">#cccccc</color>
+    <color name="bg_no_photo">#EEEEEE</color>
+</resources>

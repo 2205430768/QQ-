@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#eddddd"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.example.xxy.lovell.view.RoundImageView
+        android:id="@+id/head_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/guanggao1"
+        >
+    </com.example.xxy.lovell.view.RoundImageView>
+    <TextView
+          android:id="@+id/user_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="明月心"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+       <TextView
+           android:id="@+id/sign_name"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:text="后悔从山东寿司从事凑合的厚度和的房间哦大哦活动"
+
+           />
+
+        <Button
+            android:id="@+id/liaota_button"
+            android:layout_width="48dp"
+            android:layout_height="23dp"
+            android:background="@drawable/liaota"
+            >
+        </Button>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

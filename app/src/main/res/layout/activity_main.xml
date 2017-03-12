@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_height="66dp">
+
+                <EditText
+                    android:layout_centerInParent="true"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:drawableRight="@drawable/rightward_26"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:inputType="textPersonName"
+                    android:hint="西安电子科技大学"
+                    android:textColorHint="#888888"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textCursorDrawable="@null"
+                    android:background="@drawable/shape"
+                    android:ems="10"
+                    android:id="@+id/editText"
+                     />
+                <Button
+
+                    android:id="@+id/searchorsendstatus"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/search"
+                />
+            </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/people"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="@string/people"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="38dp"
+                android:background="#666666"
+                />
+            <Button
+                android:id="@+id/status"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#999999"
+                android:text="@string/statue"
+                />
+        </LinearLayout>
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackground"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#bdbdbd"/>
+
+        <RadioGroup
+
+            android:id="@+id/bottom_tab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bottomTabBackground"
+
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/bottom_tab_wechat_bt"
+                style="@style/BottomTabMenuBt"
+                android:drawableTop="@drawable/tab_menu_wechat_bt_selector"
+                android:text="微信" />
+
+            <RadioButton
+                android:id="@+id/bottom_tab_phone_bt"
+                style="@style/BottomTabMenuBt"
+                android:drawableTop="@drawable/tab_menu_phone_bt_selector"
+                android:text="通讯录" />
+
+            <RadioButton
+                android:id="@+id/bottom_tab_find_bt"
+                style="@style/BottomTabMenuBt"
+                android:drawableTop="@drawable/tab_menu_find_bt_selector"
+                android:text="发现" />
+
+            <RadioButton
+                android:id="@+id/bottom_tab_mine_bt"
+                style="@style/BottomTabMenuBt"
+                android:drawableTop="@drawable/tab_menu_mine_bt_selector"
+                android:text="我" />
+
+        </RadioGroup>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
+

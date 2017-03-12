@@ -1,0 +1,22 @@
+<com.example.xxy.lovell.view.MyLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+     >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/left_people"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/right_people"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        />
+
+</com.example.xxy.lovell.view.MyLinearLayout>
